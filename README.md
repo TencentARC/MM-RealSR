@@ -89,6 +89,8 @@ If you have any question, please email `eechongm@gmail.com`.
 
 ## 🤗 Acknowledgement
 
-Thanks for all the contributors.
+Thanks to the following open-source projects:
 
-- [2ji3150](https://github.com/2ji3150): Thanks for the [detailed and valuable feedbacks/suggestions](https://github.com/xinntao/Real-ESRGAN/issues/131).
+- [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
+- [CResMD](https://github.com/hejingwenhejingwen/CResMD).
+- [CUGAN](https://github.com/HaomingCai/CUGAN)
