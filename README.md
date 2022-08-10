@@ -93,4 +93,4 @@ Thanks to the following open-source projects:
 
 - [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
 - [CResMD](https://github.com/hejingwenhejingwen/CResMD).
-- [CUGAN](https://github.com/HaomingCai/CUGAN)
+- [CUGAN](https://github.com/HaomingCai/CUGAN).
