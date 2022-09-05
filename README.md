@@ -51,7 +51,7 @@ python -m torch.distributed.launch --nproc_per_node=4 --master_port=4321 mmreals
 
 ### :european_castle: Model Zoo
 
-Please download checkpoints from [Google Drive](https://drive.google.com/file/d/10EyZR0SBEXkZIag9rcSgYBupBGllcwdA/view?usp=sharing).
+Please download checkpoints from [Google Drive](https://drive.google.com/file/d/10EyZR0SBEXkZIag9rcSgYBupBGllcwdA/view?usp=sharing) or [Github Release](https://github.com/TencentARC/MM-RealSR/releases).
 
 
 #### Inference general images
