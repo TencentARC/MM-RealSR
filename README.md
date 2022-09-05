@@ -1,8 +1,10 @@
 ### 📖 MM-RealSR: Metric Learning based Interactive Modulation for Real-World Super-Resolution
 
-> [[Paper](https://arxiv.org/abs/2205.05065)]<br>
+>[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2205.05065)<br>
 >[Chong Mou](https://scholar.google.com.hk/citations?user=SYQoDk0AAAAJ&hl=en), Yanze Wu, [Xintao Wang](https://xinntao.github.io/), [Chao Dong](https://scholar.google.com.hk/citations?user=OSDCB0UAAAAJ), [Jian Zhang](https://jianzhang.tech/), [Ying Shan](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en) <br>
 > [Tencent ARC Lab](https://arc.tencent.com/en/ai-demos/imgRestore); Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
+
+If you want to use the paper model, please go to this [Colab Demo](https://colab.research.google.com/drive/1pIpHK4g2uKdbYXIuskusL9WdwQVZAz1q?usp=sharing) 
 
 <p align="center">
   <img src="figs/im_c_real.PNG" width="50%"><img src="figs/im_c_sy.PNG" width="50%">
@@ -47,7 +49,7 @@ python -m torch.distributed.launch --nproc_per_node=4 --master_port=4321 mmreals
 python -m torch.distributed.launch --nproc_per_node=4 --master_port=4321 mmrealsr/train.py -opt options/MMRealSRGAN_x4.yml --launcher pytorch --auto_resume
 ```
 
-### Model Zoo
+### :european_castle: Model Zoo
 
 Please download checkpoints from [Google Drive](https://drive.google.com/file/d/10EyZR0SBEXkZIag9rcSgYBupBGllcwdA/view?usp=sharing).
 
