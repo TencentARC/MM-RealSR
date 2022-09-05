@@ -33,7 +33,7 @@ import argparse
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-opt', type=str, default='options/val.yml')
-    parser.add_argument('--model_path', type=str, default='experiments/pretrained_models/MMRealSRGAN.pth')
+    parser.add_argument('--model_path', type=str, default='experiments/pretrained_models/MMRealSRGAN_ModulationBest.pth')
     parser.add_argument('--im_path', type=str, default='imgs/oldphoto6.png')
     args = parser.parse_args()
 
