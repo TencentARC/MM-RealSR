@@ -41,7 +41,7 @@ If you want to use the paper model, please go to this [Colab Demo](https://colab
 
 ---
 
-### Training
+## Training
 
 ```bash
 python -m torch.distributed.launch --nproc_per_node=4 --master_port=4321 mmrealsr/train.py -opt options/MMRealSRNet_x4.yml --launcher pytorch --auto_resume
@@ -49,14 +49,12 @@ python -m torch.distributed.launch --nproc_per_node=4 --master_port=4321 mmreals
 python -m torch.distributed.launch --nproc_per_node=4 --master_port=4321 mmrealsr/train.py -opt options/MMRealSRGAN_x4.yml --launcher pytorch --auto_resume
 ```
 
-### :european_castle: Model Zoo
+## :european_castle: Model Zoo
 
 Please download checkpoints from [Google Drive](https://drive.google.com/file/d/10EyZR0SBEXkZIag9rcSgYBupBGllcwdA/view?usp=sharing) or [Github Release](https://github.com/TencentARC/MM-RealSR/releases).
 
 
-#### Inference general images
-
-Inference!
+## Testing
 
 ```bash
 python inference_mmrealsr.py -opt (path to .yml file) --im_path (path to LR images) --model_path (path to checkpoint) --res_path (path to save SR images)
@@ -70,7 +68,7 @@ python Metric/DISTS.py --folder_gt (path to HR images) --folder_restored (path t
 
 Results are in the `results` folder
 
-#### Generate video demos
+## Video Demo
 
 ```bash
 python inference_mmrealsr_demo.py -opt (path to .yml file) --model_path (path to checkpoint) --im_path (path to LR image)
