@@ -135,7 +135,7 @@ train:
     milestones: [400000]
     gamma: 0.5
 
-  total_iter: 590000
+  total_iter: 590000  # You can change total_iter to 100000 to produce the BestModulation version.
   warmup_iter: -1  # no warm up
 
   # losses
