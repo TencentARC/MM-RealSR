@@ -69,6 +69,7 @@ python Metric/DISTS.py --folder_gt (path to HR images) --folder_restored (path t
 Results are in the `results` folder
 
 ## Video Demo
+Quick start can be found in [Colab Demo](https://colab.research.google.com/drive/1pIpHK4g2uKdbYXIuskusL9WdwQVZAz1q?usp=sharing) for MM-RealSR <a href="https://colab.research.google.com/drive/1pIpHK4g2uKdbYXIuskusL9WdwQVZAz1q?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>.
 
 ```bash
 python inference_mmrealsr_demo.py -opt (path to .yml file) --model_path (path to checkpoint) --im_path (path to LR image)
