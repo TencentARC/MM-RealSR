@@ -71,7 +71,7 @@ Results are in the `results` folder
 #### Generate video demos
 
 ```bash
-python inference_mmrealsr_demo.py -opt (path to .yml file) --model_path (path to checkpoint)
+python inference_mmrealsr_demo.py -opt (path to .yml file) --model_path (path to checkpoint) --im_path (path to LR image)
 ```
 
 ## BibTeX
