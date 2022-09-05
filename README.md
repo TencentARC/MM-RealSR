@@ -75,6 +75,8 @@ Results are in the `results` folder
 ```bash
 python inference_mmrealsr_demo.py -opt (path to .yml file) --model_path (path to checkpoint) --im_path (path to LR image)
 ```
+![Alt Text]("figs/blur.gif")
+<br>
 <img src="figs/blur.gif" width="50%"><img src="figs/noise.gif" width="50%">
 
 ## BibTeX
