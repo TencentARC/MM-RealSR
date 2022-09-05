@@ -54,8 +54,8 @@ if __name__ == '__main__':
         os.makedirs('results/demo/')
     except:
         pass
-    video_n = cv2.VideoWriter("results/demo/demo_noise.avi", fourcc, 10, (w*4,h*4))
-    video_b = cv2.VideoWriter("results/demo/demo_blur.avi", fourcc, 10, (w*4,h*4))
+    video_n = cv2.VideoWriter("results/demo/demo_noise.mp4", fourcc, 10, (w*4,h*4))
+    video_b = cv2.VideoWriter("results/demo/demo_blur.mp4", fourcc, 10, (w*4,h*4))
     im = img2tensor(im)
     lq = im.unsqueeze(0).cuda()/255.
 
