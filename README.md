@@ -4,7 +4,7 @@
 >[Chong Mou](https://scholar.google.com.hk/citations?user=SYQoDk0AAAAJ&hl=en), Yanze Wu, [Xintao Wang](https://xinntao.github.io/), [Chao Dong](https://scholar.google.com.hk/citations?user=OSDCB0UAAAAJ), [Jian Zhang](https://jianzhang.tech/), [Ying Shan](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en) <br>
 > [Tencent ARC Lab](https://arc.tencent.com/en/ai-demos/imgRestore); Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
 
-If you want to use the paper model, please go to this [Colab Demo](https://colab.research.google.com/drive/1pIpHK4g2uKdbYXIuskusL9WdwQVZAz1q?usp=sharing) 
+If you want to use the paper model, please go to this [Colab Demo](https://colab.research.google.com/drive/1pIpHK4g2uKdbYXIuskusL9WdwQVZAz1q?usp=sharing) for MM-RealSR <a href="https://colab.research.google.com/drive/1pIpHK4g2uKdbYXIuskusL9WdwQVZAz1q?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>.
 
 <p align="center">
   <img src="figs/im_c_real.PNG" width="50%"><img src="figs/im_c_sy.PNG" width="50%">
