@@ -75,7 +75,7 @@ Results are in the `results` folder
 ```bash
 python inference_mmrealsr_demo.py -opt (path to .yml file) --model_path (path to checkpoint) --im_path (path to LR image)
 ```
-<img src="figs/blur.gif" width="50%"><img src="figs/noise.gif" width="50%">
+<img src="https://github.com/TencentARC/MM-RealSR/blob/main/imgs/blur.gif" width="50%"><img src="https://github.com/TencentARC/MM-RealSR/blob/main/imgs/noise.gif" width="50%">
 
 ## BibTeX
 
