@@ -41,7 +41,7 @@ If you want to use the paper model, please go to this [Colab Demo](https://colab
 
 ---
 
-## Training
+## Training (4 V100 GPUs)
 
 ```bash
 python -m torch.distributed.launch --nproc_per_node=4 --master_port=4321 mmrealsr/train.py -opt options/MMRealSRNet_x4.yml --launcher pytorch --auto_resume
