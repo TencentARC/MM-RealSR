@@ -26,7 +26,7 @@ If you want to use the paper model, please go to this [Colab Demo](https://colab
     cd MM-RealSR
     ```
 
-1. Install dependent packages
+2. Install dependent packages
 
     ```bash
     # Install basicsr - https://github.com/xinntao/BasicSR
