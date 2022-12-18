@@ -10,6 +10,7 @@ import argparse
 def main(args):
     parser = argparse.ArgumentParser()
     parser.add_argument('--folder_restored', type=str, default='results/aim19')
+    parser.add_argument('--crop_border', type=int, default=0, help='Crop border for each side')
     args = parser.parse_args()
     niqe_all = []
     img_list = sorted(scandir(args.folder_restored, recursive=True, full_path=True))
